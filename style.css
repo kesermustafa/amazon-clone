@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -283,3 +288,52 @@ span{
     margin-right: 6px;
     font-size: 15px;
 }
+
+.foot-panel1{
+    background-color: #364759;
+    height: 50px;display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.foot-panel1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-panel1:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.foot-panel2{
+    display: flex;
+    background-color: #222f3d;
+    height: 290px;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 a{
+    text-decoration: none;
+    color: #d7dcdc;
+    display: block;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+
+.foot-panel2 a:hover{
+    color: goldenrod;
+}
+
+.foot-panel2 p{
+    color: white;
+}
+
+ul{
+    margin-top: 20px;
+}
+
