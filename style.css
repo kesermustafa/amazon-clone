@@ -313,8 +313,9 @@ span{
 .foot-panel2{
     display: flex;
     background-color: #222f3d;
-    height: 290px;
+    height: 150px;
     justify-content: space-evenly;
+    border-bottom: 2px solid gray;
 }
 
 .foot-panel2 a{
@@ -331,6 +332,7 @@ span{
 
 .foot-panel2 p{
     color: white;
+    padding-bottom: 10px;
 }
 
 ul{
