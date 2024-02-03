@@ -117,3 +117,23 @@ span{
 .nav-cart i{
     font-size: 30px;
 }
+
+
+/* ----- panel -----*/
+
+.panel{
+    display: flex;
+    background-color: #222f3d;
+    color: #f3f3f3;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
+.panel .panel-ops p{
+    display: inline-flex;
+    align-items: center;
+    height:40px ;
+    padding: 0 3px;
+
+}
